@@ -1,8 +1,10 @@
 
 # Robot Control System
 > Tasks:   UI analysis, design and implementation for robot control system using JQUERY,PHP,HTML and JS , UX testing and improvement ,responsive design, combining base and arm screens
-
+> Testing Folder contains a vedio and screenshots of how it's working
+> 
 #### Task Files:
+
 - #### robot_control_system .php and .css
 >the main files for designing the robot control system , 
 - #### values.js 
