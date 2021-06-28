@@ -1,10 +1,15 @@
 
 - **Testing Folder** contains a vedio and screenshots of how it's working
-# Robot Control System
+# Task: Robot Control System
 
 
 
-#### **Task:   UI analysis, design and implementation for robot control system using JQUERY,PHP,HTML and JS , UX testing and improvement ,responsive design, combining base and arm screens**
+#### **subTasks:**  
+- UI analysis
+- design and implementation for robot control system using JQUERY,PHP,HTML and JS 
+- UX testing and improvement 
+- responsive design
+- combining base and arm screens
 
 
 ## Task Files:
@@ -16,7 +21,9 @@
 - #### db_update.php
 > #### takes the posted values and send them to the database.
 #
-#### **Task: two php pages shows values for the arm and the base database**
+
+
+#### **subTask: two php pages shows values for the arm and the base database**
 #### Task Files:
 ```` 
 - arm.php:
