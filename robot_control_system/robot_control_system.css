@@ -2,8 +2,6 @@
 
 /* custom properties*/
 :root {
-  --psize: 2em;
-  --ptext: 2rem;
   --pcolor: #c7781e;
   --scolor: #47607c;
   --tcolor: #252a2d;
@@ -80,7 +78,6 @@ body {
   margin: -0.1em 1em;
 }
 
-
 .start-btn {
   font-size: 0;
   width: 35px;
@@ -127,7 +124,6 @@ body {
 .right h2 {
   margin-top: -1em;
   font-size: 0.88rem;
-  
 }
 .bottom-right {
   float: center;
@@ -190,7 +186,7 @@ body {
   box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
   text-align: center;
   margin: 2em;
-  
+
   float: center;
 }
 .form-left h3 {

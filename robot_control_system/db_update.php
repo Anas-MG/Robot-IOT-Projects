@@ -6,7 +6,7 @@ $conn = OpenCon();
 if(isset($_POST['start'])){
         $start = $_POST['start'];
 $sql = "UPDATE main_base
-SET  startt = $start  WHERE id=0";
+SET  start= $start  WHERE id=0";
 $result = mysqli_query($conn, $sql) or die ("Cant insert");
 
 }

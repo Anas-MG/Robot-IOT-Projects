@@ -61,6 +61,7 @@ arm_base.onchange = function () {
 
 //reseting values to 90degree onclicking reset button "هنا !"
 var reset = document.getElementById("reset");
+var start = 0;
 reset.onclick = function () {
   $.post("db_update.php", {
     gripper: "90",
@@ -69,6 +70,7 @@ reset.onclick = function () {
     shoulder: "90",
     arm_base: "90",
   });
+  $.post("db_update.php", { start: start });
   gripper.value = "90";
   wrist.value = "90";
   elbow.value = "90";
@@ -108,7 +110,7 @@ forward.onclick = function () {
 
 //controlling on and off button for the main base, posting 1 when clicking when 'ON' and 0 when clicking 'OFF'
 var on = document.getElementById("on");
-var start = 0;
+start = 0;
 function onStart() {
   if (on.value === "ON") {
     on.value = "OFF";

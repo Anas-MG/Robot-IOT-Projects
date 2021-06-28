@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Tajawal&display=swap");
+
+/* custom properties*/
+:root {
+  --white: rgba(255, 255, 255, 0.452);
+  --tcolor: #252a2d;
+}
+body {
+  font-family: "Tajawal", Roboto;
+  text-align: right;
+  margin: 0;
+  background: -webkit-radial-gradient(
+      center top,
+      farthest-side,
+      #5b6977,
+      #343b43 40%,
+      #22272c 95%,
+      #22272c
+    ),
+    #22272c;
+  background-repeat: no-repeat;
+}
+.values {
+  background: var(--white);
+  padding: 0.1em;
+  border-radius: 20px;
+  border-left: 1px solid var(--white);
+  border-top: 1px solid var(--white);
+  backdrop-filter: blur(10px);
+  margin-left: -4em;
+
+  text-align: left;
+  width: 50%;
+}
+.arm {
+  background: var(--white);
+  padding: 0.3%;
+  border-radius: 20px;
+  border-left: 1px solid var(--white);
+  border-top: 1px solid var(--white);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  margin: 20em;
+  width: 40%;
+}
+
+h2 {
+  padding: 1em;
+  font-weight: bold;
+  background: linear-gradient(#282d31, #252a2d);
+  box-shadow: 0px -3px 2px 0px #212428 inset, 0px 2px 2px #535d65 inset,
+    0px 2px 2px -1px #050606, 0px 7px 4px -1px #1a1d1f;
+  color: white;
+  border-radius: 20px;
+  border-left: 1px solid #050606;
+  border-top: 1px solid #050606;
+  box-shadow: 3px 3px 3px #222;
+}
