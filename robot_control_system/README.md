@@ -1,7 +1,10 @@
 
 # Robot Control System
-> Tasks:   UI analysis, design and implementation for robot control system using JQUERY,PHP,HTML and JS , UX testing and improvement ,responsive design, combining base and arm screens
 - Testing Folder contains a vedio and screenshots of how it's working
+
+
+> Tasks:   UI analysis, design and implementation for robot control system using JQUERY,PHP,HTML and JS , UX testing and improvement ,responsive design, combining base and arm screens
+
 
 #### Task Files:
 
@@ -13,7 +16,7 @@
 > takes the posted values and send them to the database.
 #
 > Tsak: two php pages shows values for the arm and the base database
-#### Task Files
+#### Task Files:
 ```` 
 - arm.php:
     php page that gets the values from the ARM database and show them on screen 
