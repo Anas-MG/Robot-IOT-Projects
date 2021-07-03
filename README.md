@@ -1,4 +1,4 @@
-# IoT-robot-arm
+# IoT-Smart Methods Tasks
 
 ## Task: Robot Control System
 #### Folder:
