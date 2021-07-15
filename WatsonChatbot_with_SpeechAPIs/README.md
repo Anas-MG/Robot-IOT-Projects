@@ -2,9 +2,9 @@
 > The code originaly was only for watson STT service cloned from  https://github.com/IBM/watson-streaming-stt
 # Files:
   - ##### out.ogv
-  ``System live recording  Video ``
+  ``A live recording Video ``
   - ##### setup.cfg , setup.py
-  ``Setup configuration built totaly from the source``
+  ``Setup configurations built totaly from the source``
    - ##### speech.cfg
   ``Authentication for My Watson Speech Apikey and Url``
    - ##### TTS.mp3
@@ -19,7 +19,8 @@
 
 #### Dependencies :
 
- ````$ sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+ ````
+ $ sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
  $ pip install pyaudio
  $ pip install websocket 
  #### Audio player dependencies
