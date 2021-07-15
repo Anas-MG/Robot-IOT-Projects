@@ -1,5 +1,5 @@
 # Watson Chatbot with Speech to text and Text to speech 
-> The code originaly was cloned from  https://github.com/IBM/watson-streaming-stt
+> The code originaly was only for watson STT service cloned from  https://github.com/IBM/watson-streaming-stt
 # Files:
   - ##### out.ogv
   ``System live recording  Video ``
@@ -31,7 +31,7 @@
  - ##### Setup Watson Speech to text service
  - ##### Setup Watson Assistant English chatbot service 
  - ##### Setup Watson Text To speech service
- > TTS and Assistant are configured and used within the transcription code in transcription.py . I've explained every thing there 
+ > TTS and Assistant are configured and used within the transcription code in transcription.py . I commented on everything there 
  - ##### Configure Watson Speech API's and Watson assistant configuration to send input voice as message for chatbot
  > The Assistant will recieve a Message and send a response to TTS in the Speech To Text Stream 
  #
