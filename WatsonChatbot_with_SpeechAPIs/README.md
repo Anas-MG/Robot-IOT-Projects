@@ -1,5 +1,5 @@
 # Watson Chatbot with Speech to text and Text to speech 
-> The code Originaly was cloned from  https://github.com/IBM/watson-streaming-stt
+> The code originaly was cloned from  https://github.com/IBM/watson-streaming-stt
 # Files:
   - ##### out.ogv
   ``System live recording  Video ``
