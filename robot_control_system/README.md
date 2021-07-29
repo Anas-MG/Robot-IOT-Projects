@@ -8,7 +8,6 @@
 
 #
 ### Robot Base & Arm Controller webpage to post values to the database
-##### Posts the values to the database
 ![Screenshot (244)](https://user-images.githubusercontent.com/49666154/127553159-d3c10e3f-675d-4df0-9afb-0a18aca20492.png)
 ##### -  This is written with HTML, CSS, JS, JQUERY with PHP as backend
 ##### -  Responsive design
