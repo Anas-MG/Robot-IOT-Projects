@@ -1,14 +1,11 @@
 
 ######  **Testing Folder** contains a vedio and screenshots of how it's working
-# Robot Control System for Robot Base & Arm 
-#### -  HTML, CSS, JS, JQUERY with PHP as backend
-#### -  Responsive design
-#### -  php pages shows values for the arm and the base database
-#### Task Files:
-```` 
-- 
-````
-## Files:
+# Robot Controller Webpage for Robot Base & Arm 
+##### -  HTML, CSS, JS, JQUERY with PHP as backend
+##### -  Responsive design
+##### -  php pages shows values for the arm and the base database
+#
+#### Files:
 
 - #### robot_control_system .php and .css
 > ##### the main files for designing the robot control system , 
