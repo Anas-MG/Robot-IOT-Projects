@@ -20,7 +20,7 @@
  - ##### Setup Watson Speech to text service
  - ##### Setup Watson Assistant English chatbot service 
  - ##### Setup Watson Text To speech service
- > ###### TTS and Assistant are configured and used within the transcription code in transcription.py . I commented on everything there 
+ > ###### TTS and Assistant are configured and used within the transcription code in transcription.py .
  - ##### Configure Watson Speech API's and Watson assistant configuration to send input voice as message for chatbot
  > ###### The Assistant will recieve a Message and send a response to TTS in the Speech To Text Stream 
  #
