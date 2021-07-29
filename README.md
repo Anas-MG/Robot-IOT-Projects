@@ -1,4 +1,4 @@
-#IOT implemented tasks to be used with the Robot 
+# IOT
 ### Robot Controller Webpage for Robot base and arm
 - ##### Design and implementation for robot control system using
 ##### HTML, CSS, JS, JQUERY with PHP, SQL database
