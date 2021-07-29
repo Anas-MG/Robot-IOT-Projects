@@ -7,9 +7,9 @@
 ![Screenshot (242)](https://user-images.githubusercontent.com/49666154/127552022-a7a383e0-55fc-42e8-9fbe-d1256fb86eae.png)
 
 #
-## Robot Base & Arm Controller webpage
-![Robot_controller_webpage](https://user-images.githubusercontent.com/49666154/127549856-42ad6a61-4f36-4592-9d44-770d94719fba.png)
-![responseve_web_controller](https://user-images.githubusercontent.com/49666154/127550148-205b2416-ff9d-42ea-aab7-3e0c1183b6c6.png)
+### Robot Base & Arm Controller webpage to post values to the database
+##### Posts the values to the database
+![Screenshot (244)](https://user-images.githubusercontent.com/49666154/127553159-d3c10e3f-675d-4df0-9afb-0a18aca20492.png)
 ##### -  This is written with HTML, CSS, JS, JQUERY with PHP as backend
 ##### -  Responsive design
 
@@ -22,7 +22,8 @@
 > ##### takes the posted values and send them to the database.
 
 #
-###  Seperate PHP pages to get values 
+###  Seperate PHP pages to get values from the database
+
 ![Screenshot (240)](https://user-images.githubusercontent.com/49666154/127550842-86f9a1e2-d05e-441b-ab19-99111059408d.png)
 ##### Files:
 - ##### arm.php:
