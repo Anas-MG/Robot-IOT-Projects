@@ -16,7 +16,7 @@
  $ pip install pydub
  ````
  #
- ### Steps:
+ #### Steps:
  - ##### Setup Watson Speech to text service
  - ##### Setup Watson Assistant English chatbot service 
  - ##### Setup Watson Text To speech service
@@ -41,7 +41,7 @@ $ python transcribe.py -t {seconds}
 ````
 
  #
- - #### extra script lines in the beginning to avoid alsa error handlers
+ - #### Extra lines in the script to avoid alsa error handlers
  ````
  
 from ctypes import *
@@ -58,7 +58,7 @@ asound.snd_lib_error_set_handler(c_error_handler)
 
 ````
  #
-### Files:
+##### Files:
   - ##### out.ogv
 ````A live recording Video ````
   - ##### setup.cfg , setup.py
