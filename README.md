@@ -6,8 +6,7 @@
 #
  #### 2- Using python language and IBMWatson assistant to give the robot speaking ability: 
 - ##### Watson assistant evaluation chatbot
-- ##### Merge speech to text and text to speech with watson assistant (speaking ability)
-- ##### Reduce Delays between responses
+- ##### Merge speech to text and text to speech with watson assistant
 > ##### **Folder: Chatbot_with_SpeechAPIs**
 
 
