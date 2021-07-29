@@ -14,11 +14,11 @@
 
 ##### Files:
 - ##### robot_control_system .php and .css
-> ##### the main files for designing the robot control system , 
+> #####  robot controller webpage files , 
 - ##### values.js 
-> ##### takes the values from the range slider on change and from arrows on click , post values to"db_update.php"
+> ##### script that handle values from the range slider (on change) and from arrows (on click) and post them to"db_update.php"
 - ##### db_update.php
-> ##### takes the posted values and send them to the database.
+> ##### send posted values to the database.
 
 #
 ###  Seperate PHP pages to get values from the database
