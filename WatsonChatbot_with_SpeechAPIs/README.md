@@ -15,7 +15,9 @@
  $ sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
  $ pip install pyaudio
  $ pip install websocket 
- #### Audio player dependencies
+ ````
+  #### Audio player dependencies
+ ````
  $ sudo apt-get install ffmpeg libavcodec-extra
  $ pip install pydub
  ````
