@@ -4,7 +4,7 @@
 ## Robot Control System 
 ![Robot_controller_webpage](https://user-images.githubusercontent.com/49666154/127557885-d089d4a4-448c-41ed-8329-fefa70007bbb.png)
 #### My Approach in this project is creating a simple reliable system that controls the arm and base values online
-#### The system should post values of the Robot arm & base to the database, and get them into seperate PHP pages 
+#### The system should post values of the Robot arm & base to the sql database, and get them by seperate PHP pages 
 #### This due to that we'll need these pages so we can handle it's values by python and post to ROS 
 
 - ##### This is built using HTML, CSS, JS, JQUERY with PHP, SQL database
