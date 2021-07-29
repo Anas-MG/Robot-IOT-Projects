@@ -19,6 +19,13 @@
  $ sudo apt-get install ffmpeg libavcodec-extra
  $ pip install pydub
  ````
+ ## 
+ - #### The project is ready to use after installing the dependencies 
+ ####  run:
+````
+$ python transcribe.py -t {seconds}
+
+````
  #
  #### Steps:
  - ##### Setup Watson Speech to text service
@@ -29,13 +36,7 @@
  ###### The code originaly was only for watson STT service cloned from  https://github.com/IBM/watson-streaming-stt
  ###### TTS and Assistant are programmed within the transcription code in transcription.py .
  #
-
-#### run:
-````
-$ python transcribe.py -t {seconds}
-
-````
-#### Script Cycle:
+#### Cycle:
 ````
  1- Watson STT starts 
  2- If result Save to STT.txt 
