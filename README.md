@@ -10,7 +10,6 @@
 - ##### Watson assistant evaluation chatbot
 - ##### Merge speech to text and text to speech with watson assistant
 - ##### Reduce Delays between responses
-> ##### Folder:
-**Chatbot_with_SpeechAPIs**
+> ##### **Folder: Chatbot_with_SpeechAPIs**
 
 
