@@ -1,5 +1,9 @@
-# Watson Chatbot with Speech to text and Text to speech 
-###### The code originaly was only for watson STT service cloned from  https://github.com/IBM/watson-streaming-stt
+## Robot Chatbot with Python and IBMWatson:
+#### This project's approach is to give the robot the speaking ability so it can handle conversation with stupid humans
+#### The system should handle text to speech and speech to text so it can communicate 
+![Screenshot (246)](https://user-images.githubusercontent.com/49666154/127555231-98bd7ea2-96fa-416a-ae7b-fdd68ec45006.png) 
+
+
 
 
  ##
@@ -20,9 +24,10 @@
  - ##### Setup Watson Speech to text service
  - ##### Setup Watson Assistant English chatbot service 
  - ##### Setup Watson Text To speech service
- > ###### TTS and Assistant are configured and used within the transcription code in transcription.py .
- - ##### Configure Watson Speech API's and Watson assistant configuration to send input voice as message for chatbot
- > ###### The Assistant will recieve a Message and send a response to TTS in the Speech To Text Stream 
+ - ##### Programming the main script to handle input voice with IBM Watson STT service and send it as message for chatbot
+ - ##### Programming the main script to handle chatbot answer with IBM Watson TTS service 
+ ###### The code originaly was only for watson STT service cloned from  https://github.com/IBM/watson-streaming-stt
+ ###### TTS and Assistant are programmed within the transcription code in transcription.py .
  #
 
 #### run:
