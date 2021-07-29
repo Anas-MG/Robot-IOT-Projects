@@ -9,7 +9,6 @@
  
 
 - ##### This is built using HTML, CSS, JS, JQUERY with PHP, SQL database
-- ##### php pages to show the Robot arm and base values, these values will be used by ROS system to move the robot
 > ##### **Folder: robot_control_system** 
 
 
