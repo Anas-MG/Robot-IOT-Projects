@@ -1,23 +1,11 @@
 # Watson Chatbot with Speech to text and Text to speech 
-> The code originaly was only for watson STT service cloned from  https://github.com/IBM/watson-streaming-stt
-# Files:
-  - ##### out.ogv
-  ``A live recording Video ``
-  - ##### setup.cfg , setup.py
-  ``Setup configurations built totaly from the source``
-   - ##### speech.cfg
-  ``Authentication for My Watson Speech Apikey and Url``
-   - ##### TTS.mp3
-  ``Last Watson assistant TTS Response``
-  -  ##### STT.txt
-  ``Last complete trascripted phrase``
-  -  ##### transcript.py
-   ``The main script ... where the magic happened ^^``
+###### The code originaly was only for watson STT service cloned from  https://github.com/IBM/watson-streaming-stt
+
 
  ##
  
 
-#### Dependencies :
+#### Dependencies installed:
 
  ````
  $ sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
@@ -32,17 +20,17 @@
  - ##### Setup Watson Speech to text service
  - ##### Setup Watson Assistant English chatbot service 
  - ##### Setup Watson Text To speech service
- > TTS and Assistant are configured and used within the transcription code in transcription.py . I commented on everything there 
+ > ###### TTS and Assistant are configured and used within the transcription code in transcription.py . I commented on everything there 
  - ##### Configure Watson Speech API's and Watson assistant configuration to send input voice as message for chatbot
- > The Assistant will recieve a Message and send a response to TTS in the Speech To Text Stream 
+ > ###### The Assistant will recieve a Message and send a response to TTS in the Speech To Text Stream 
  #
 
-#### run
+#### run:
 ````
 $ python transcribe.py -t {seconds}
 
 ````
-#### Cycle:
+#### Script Cycle:
 ````
  1- Watson STT starts 
  2- If result Save to STT.txt 
@@ -53,7 +41,7 @@ $ python transcribe.py -t {seconds}
 ````
 
  #
- - #### Added extra code lines in the beginning to avoid alsa error handlers
+ - #### extra script lines in the beginning to avoid alsa error handlers
  ````
   from ctypes import *)
 
@@ -69,7 +57,19 @@ $ python transcribe.py -t {seconds}
  #Set error handler
  asound.snd_lib_error_set_handler(c_error_handler)
 ````
- 
-
+ #
+### Files:
+  - ##### out.ogv
+````A live recording Video ````
+  - ##### setup.cfg , setup.py
+  ``Setup configurations built totaly from the source``
+   - ##### speech.cfg
+  ``Authentication for My Watson Speech Apikey and Url``
+   - ##### TTS.mp3
+  ``Last Watson assistant TTS Response``
+  -  ##### STT.txt
+  ``Last complete trascripted phrase``
+  -  ##### transcript.py
+   ``The main script ... where the magic happened ^^``
 
 
