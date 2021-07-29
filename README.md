@@ -1,8 +1,7 @@
 # IOT
 ### Robot Controller Webpage for Robot base and arm
-- ##### Design and implementation for robot control system using
-##### HTML, CSS, JS, JQUERY with PHP, SQL database
-- ##### Design php pages to show the arm and base last values, this will be used by ROS system to move the robot
+- ##### Design and implementation for robot controller webpage using HTML, CSS, JS, JQUERY with PHP, SQL database
+- ##### Design php pages to show the Robot arm and base values, these values will be used by ROS system to move the robot
 - ##### Responsive design
 > ##### Folder:
 **robot_control_system** 
