@@ -19,7 +19,8 @@
 > ##### script that handle values from the range slider (on change) and from arrows (on click) and post them to"db_update.php"
 - ##### db_update.php
 > ##### send posted values to the database.
-
+- ##### db_conn.php 
+> ##### establishing a connection to the database
 #
 ###  Seperate PHP pages to get values from the database
 
