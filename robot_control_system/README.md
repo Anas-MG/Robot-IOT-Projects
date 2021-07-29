@@ -1,5 +1,5 @@
 
-######  **Testing Folder** contains a vedio and screenshots of how it's working
+
 # Robot Controller Webpage for Robot Base & Arm 
 ##### -  HTML, CSS, JS, JQUERY with PHP as backend
 ##### -  Responsive design
