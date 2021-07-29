@@ -1,18 +1,12 @@
 
-- **Testing Folder** contains a vedio and screenshots of how it's working
-# Task: Robot Control System
+######  **Testing Folder** contains a vedio and screenshots of how it's working
+# Robot Control System for Robot Base & Arm 
+#### -  HTML, CSS, JS, JQUERY with PHP as backend
+#### -  Responsive design
 
 
 
-#### **subTasks:**  
-- UI analysis
-- design and implementation for robot control system using JQUERY,PHP,HTML and JS 
-- UX testing and improvement 
-- responsive design
-- combining base and arm screens
-
-
-## Task Files:
+## Files:
 
 - #### robot_control_system .php and .css
 > #### the main files for designing the robot control system , 
