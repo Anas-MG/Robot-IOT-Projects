@@ -1,11 +1,11 @@
 
 
-## Robot Controle System
-#### Our Approach here is to create a reliable system that controls the arm and base values online
-#### we need to post values of the Robot arm and base to the database, and get them to the ROS to control the robot
-#### two seperate php pages to get values from database, this is to handle it with python send it to ROS
-![Screenshot (242)](https://user-images.githubusercontent.com/49666154/127552022-a7a383e0-55fc-42e8-9fbe-d1256fb86eae.png)
+## Robot Control System
 
+![Screenshot (242)](https://user-images.githubusercontent.com/49666154/127552022-a7a383e0-55fc-42e8-9fbe-d1256fb86eae.png)
+#### Our Approach here is to create a reliable system that controls the arm and base values online
+#### we need to post values of the Robot arm & base to the database, and get them to the ROS to control the robot
+#### two seperate php pages to get values from database, this is to handle it with python send it to ROS
 #
 ### Robot Base & Arm Controller webpage to post values to the database
 ![Screenshot (244)](https://user-images.githubusercontent.com/49666154/127553159-d3c10e3f-675d-4df0-9afb-0a18aca20492.png)
