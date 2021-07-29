@@ -35,21 +35,11 @@ $ python transcribe.py -t {seconds}
  - ##### Setup Watson Text To speech service
  - ##### Programming the main script to handle input voice with IBM Watson STT service and send it as message for chatbot
  - ##### Programming the main script to handle chatbot answer with IBM Watson TTS service 
- ###### The code originaly was only for watson STT service cloned from  https://github.com/IBM/watson-streaming-stt
- ###### TTS and Assistant are programmed within the transcription code in transcription.py .
+ ###### The code originaly was for STT service cloned from  https://github.com/IBM/watson-streaming-stt
+ ###### Then I've merged my TTS and Assistant script within the transcription code in transcription.py .
  #
-#### Cycle:
-````
- 1- Watson STT starts 
- 2- If result Save to STT.txt 
- 3- Send to Watson Asisstant
- 4- Recive response from Assitant 
- 5- Watson Text To Speech and play response
- 6- Save TTS.mp3 
-````
 
- #
- - #### Extra lines in the script to avoid alsa error handlers
+  #### Extra lines in the script to avoid alsa error handlers
  ````
  
 from ctypes import *
@@ -65,6 +55,17 @@ asound = cdll.LoadLibrary('libasound.so')
 asound.snd_lib_error_set_handler(c_error_handler)
 
 ````
+#### Cycle:
+````
+ 1- Watson STT starts 
+ 2- If result Save to STT.txt 
+ 3- Send to Watson Asisstant
+ 4- Recive response from Assitant 
+ 5- Watson Text To Speech and play response
+ 6- Save TTS.mp3 
+````
+
+ 
  #
 ##### Files:
   - ##### out.ogv
