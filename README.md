@@ -13,8 +13,8 @@
 
 #
 ## Chatbot with Python and IBMWatson:
-#### This project's approach is to give the robot the speaking ability so it can handle conversation with stupid humans
-#### The system should handle text to speech and speech to text so it can communicate 
+#### This project is to give the robot the speaking ability so it can handle conversation with stupid humans
+#### The project's approach is handlin text to speech and speech to text so it can communicate 
 ![Screenshot (246)](https://user-images.githubusercontent.com/49666154/127555231-98bd7ea2-96fa-416a-ae7b-fdd68ec45006.png) 
 
 #
