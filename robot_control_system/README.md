@@ -6,8 +6,8 @@
 ![Robot_controller_webpage](https://user-images.githubusercontent.com/49666154/127559186-b51c9e13-d07b-432b-8300-b6908a21af08.png)
 
 
-#### My Approach in this project is creating a simple reliable system that controls the arm and base values online
-#### The system should post values of the Robot arm & base to the database, and get them into seperate PHP pages 
+#### Simple reliable system that controls the arm and base values online
+#### we'll post values of the Robot arm & base to the database, and get the values by seperate pages 
 
 ## 1- Robot Base & Arm Controller webpage to post values to the database
 ![Screenshot (244)](https://user-images.githubusercontent.com/49666154/127553159-d3c10e3f-675d-4df0-9afb-0a18aca20492.png)
