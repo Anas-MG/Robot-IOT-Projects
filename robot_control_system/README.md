@@ -6,8 +6,7 @@
 ![Robot_controller_webpage](https://user-images.githubusercontent.com/49666154/127559186-b51c9e13-d07b-432b-8300-b6908a21af08.png)
 
 
-#### Simple reliable system that controls the arm and base values online
-#### we'll post values of the Robot arm & base to the database, and get the values by seperate pages 
+#### Simple reliable system that controls the arm and base values and post it to the database
 
 ## 1- Robot Base & Arm Controller webpage to post values to the database
 ![Screenshot (244)](https://user-images.githubusercontent.com/49666154/127553159-d3c10e3f-675d-4df0-9afb-0a18aca20492.png)
@@ -25,7 +24,9 @@
 > ##### establishing a connection to the database
 #
 ###  2- Seperate PHP pages to get values from the database
+#### The idea here is that these two pages wll be handled and published by a python script 
 ![arm_base_pages](https://user-images.githubusercontent.com/49666154/127559708-a3a6a7fa-fe57-450c-a3b4-a30001a47067.png)
+
 ##### Files:
 - ##### arm.php:
 > ##### php page that gets the values from the ARM database and show them on screen 
