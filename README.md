@@ -2,12 +2,10 @@
 ![Screenshot (242)](https://user-images.githubusercontent.com/49666154/127552022-a7a383e0-55fc-42e8-9fbe-d1256fb86eae.png)
 
 ## Robot Control System 
-#### My Approach in this project is creating a simple reliable system that controls the arm and base values online
-#### The system should post values of the Robot arm & base to the sql database, and get them by seperate PHP pages 
+#### Simple reliable system that controls the arm and base values
+#### The system posts values of the Robot arm & base to the sql database, and get them by seperate PHP pages 
 #### This due to that we'll need these pages so we can handle it's values by python and post to ROS 
 ![Robot_controller_webpage](https://user-images.githubusercontent.com/49666154/127557885-d089d4a4-448c-41ed-8329-fefa70007bbb.png)
-
-
 - ##### This is built using HTML, CSS, JS, JQUERY with PHP, SQL database
 > ##### **Folder: robot_control_system** 
 
@@ -15,7 +13,7 @@
 #
 ## Chatbot with Python and IBMWatson:
 #### This project's is to give the robot a Speaking ability so it can handle conversation with stupid humans
-#### The project approach is to buld text to speech and speech to text services to use it in the main robot page
+#### The project approach is to build text to speech and speech to text services to be used it in the Robot page
 ![Screenshot (246)](https://user-images.githubusercontent.com/49666154/127555231-98bd7ea2-96fa-416a-ae7b-fdd68ec45006.png) 
 
 #
