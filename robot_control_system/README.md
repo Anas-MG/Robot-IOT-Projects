@@ -1,7 +1,7 @@
 
 
 ## Robot Control System
-#### This system idea is to build a robot controller page, Send & Recieve values from SQL database 
+#### The Project goal is to build a robot controller page, to Send & Recieve values from SQL database 
 #### so that we handle it's values by python and send them to ROS to control the robot 
 ![Robot_controller_webpage](https://user-images.githubusercontent.com/49666154/127559186-b51c9e13-d07b-432b-8300-b6908a21af08.png)
 
