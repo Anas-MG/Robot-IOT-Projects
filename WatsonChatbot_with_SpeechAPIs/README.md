@@ -1,4 +1,4 @@
-## Chatbot with Python and IBMWatson:
+## Speech chatbot with Python and IBMWatson:
 
 ![Screenshot (246)](https://user-images.githubusercontent.com/49666154/127555231-98bd7ea2-96fa-416a-ae7b-fdd68ec45006.png) 
 #### This project is to give the robot a Speaking ability so it can handle conversation with stupid humans
