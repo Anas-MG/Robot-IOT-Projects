@@ -1,7 +1,7 @@
 
 
 # Robot Control System
-#### The Project is basically a controller page that sends & recieves values from SQL database with two extra pages to get values
+#### The Project is basically an Arabic controller page that sends & recieves values from SQL database with two extra pages to get values
 #### The idea is that these values can be handled and sent to the robots microcontroller.
  ## Robot Base & Arm Controller page 
  ##### This page contains arm & base values controller with switch on/off button, the values are connected to the db
