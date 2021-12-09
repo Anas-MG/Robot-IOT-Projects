@@ -7,7 +7,7 @@
 
 
 #
-## Simple voice Chatbot :
+## Simple terminal voice Chatbot :
 - ##### This is built using  Python and IBMWatson
 > ##### **Folder: Chatbot_with_SpeechAPIs**
 
