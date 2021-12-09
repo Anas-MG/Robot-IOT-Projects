@@ -24,7 +24,7 @@
 > ##### establishing a connection to the database
 #
 ###  2- Seperate PHP pages to get values from the database
-#### The idea here is that these two pages wll be handled and published by a python script 
+#### The idea here is that these two pages can be handled by a script and sent to the microcontroller. 
 ![arm_base_pages](https://user-images.githubusercontent.com/49666154/127559708-a3a6a7fa-fe57-450c-a3b4-a30001a47067.png)
 
 ##### Files:
