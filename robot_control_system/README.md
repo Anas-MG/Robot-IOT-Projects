@@ -6,7 +6,7 @@
  ## Robot Base & Arm Controller page 
  ##### This page contains arm & base values controller with switch on/off button, the values are connected to the db
 ![Screenshot (244)](https://user-images.githubusercontent.com/49666154/127553159-d3c10e3f-675d-4df0-9afb-0a18aca20492.png)
-##### -  This is written with HTML, CSS, JS, JQUERY with PHP as backend
+##### -  This was built using HTML, JS, CSS, JQUERY, And PHP as backend
 ##### -  Responsive design
 
 - ##### robot controller main page  
