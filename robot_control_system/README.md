@@ -9,7 +9,6 @@
 ##### -  This is written with HTML, CSS, JS, JQUERY with PHP as backend
 ##### -  Responsive design
 
-###### files:
 - ##### robot controller main page  
 > ##### file: robot_control_system.php 
 - ##### script that handle values from the range slider (on change) and from arrows (on click) and post them to"db_update.php"
