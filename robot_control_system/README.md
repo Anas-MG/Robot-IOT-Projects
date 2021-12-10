@@ -4,10 +4,10 @@
 #### The Project is basically an Arabic controller page that sends & recieves values from SQL database with two extra pages to get values
 #### The idea is that these values can be handled and sent to the robots microcontroller.
  ## Robot Base & Arm Controller page 
- ##### This page contains arm & base values controller with switch on/off button, the values are connected to the db
+ ##### It contains arm & base values controller with switch on/off button, the values are connected to the db
 ![Screenshot (244)](https://user-images.githubusercontent.com/49666154/127553159-d3c10e3f-675d-4df0-9afb-0a18aca20492.png)
-##### -  This was built using HTML, JS, CSS, JQUERY, And PHP as backend
-##### -  Responsive design
+ - ##### This was built using HTML, JS, CSS, JQUERY, And PHP as backend
+ - ##### Responsive design
 
 - ##### robot controller main page  
 > ##### file: robot_control_system.php 
