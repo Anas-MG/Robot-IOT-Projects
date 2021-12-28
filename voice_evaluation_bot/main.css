@@ -1,0 +1,116 @@
+/* Variables */
+/* Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generic */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100vh;
+  background-color: #1c27b5;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  width: 800px;
+  height: 600px;
+  transform-origin: bottom;
+}
+@media (max-width: 800px) {
+  .main {
+    transform: scale(0.7);
+  }
+}
+@media (max-width: 700px) {
+  .main {
+    transform: scale(0.6);
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    transform: scale(0.5);
+  }
+}
+@media (max-width: 400px) {
+  .main {
+    transform: scale(0.3);
+  }
+}
+
+.robot__face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 19%;
+  width: 75%;
+  height: 200px;
+}
+.robot__mouth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 0%;
+  overflow: hidden;
+  border: 25px solid #ffc333;
+  border-radius: 100px;
+  background-color: #810332;
+  animation: mouth 1.8s infinite;
+}
+.robot__mouth::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  border-radius: 100px;
+  background-color: #400018;
+}
+.robot__mouth::after {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  width: 160px;
+  height: 80px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #dc1b50;
+  animation: tongue 1.75s infinite;
+}
+.robot__top {
+  position: absolute;
+  top: -30px;
+  width: 170px;
+  height: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ffffff;
+  z-index: 100;
+  animation: t 1.75s infinite;
+}
+.robot__bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #ffffff;
+  z-index: 100;
+  animation: b 1.75s infinite;
+}
+
+/**/
